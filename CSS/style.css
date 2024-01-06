@@ -1,0 +1,30 @@
+body {
+  background-color: #24353f;
+}
+
+h1 {
+  color: #17a2b8;
+  font-family: "Titillium Web" sans-serif;
+  font-weight: 500;
+  font-size: 50px;
+}
+
+input::placeholder {
+  color: aliceblue !important;
+  color: #95b6b6 !important;
+  font-size: 18px !important;
+}
+
+.loginDivContent {
+  background-color: #24353f;
+  box-shadow: rgb(0, 0, 0) -5px 2px 54px -9px;
+}
+
+.loginBtn:hover {
+  background-color: rgb(23, 162, 184);
+  color: aliceblue !important;
+}
+
+.loginDivContent a:hover {
+  text-decoration: underline !important;
+}
