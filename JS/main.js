@@ -102,7 +102,7 @@ function login() {
   //============= why this code doesn't work? ====================
 
   // if (isLoggedIn) {
-  //   window.location.replace = "../home.html";
+  //   window.replace = "../home.html";
   //   homeDiv.innerHTML = `<h1 class="text-info my-4">Welcome ${userNameLoggedIn}</h1>`;
 
   // } else {
@@ -111,7 +111,7 @@ function login() {
 
   if (isLoggedIn) {
     sessionStorage.setItem("loggedUser", userNameLoggedIn);
-    window.location.href = "../home.html";
+    window.location.replace("../home.html");
   } else {
     validationMessageLoginPage.classList.remove("d-none");
   }
