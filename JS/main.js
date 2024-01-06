@@ -111,7 +111,7 @@ function login() {
 
   if (isLoggedIn) {
     sessionStorage.setItem("loggedUser", userNameLoggedIn);
-    window.location.replace("../home.html");
+    window.location.replace("home.html");
   } else {
     validationMessageLoginPage.classList.remove("d-none");
   }
